@@ -1,20 +1,19 @@
 .title {
 display: grid;
-font-family: 'ZCOOL XiaoWei', serif;
+box-shadow: 5px 5px 30px white;
+background-image: url(sunny.jpg);
+background-position: center;
+opacity: 0.5;
+
+}
+.title2{
+ font-family: 'ZCOOL XiaoWei', serif;
 color: white;
 padding: 60px;
 margin-left: 16px;
 text-shadow: 3px 3px 8px black;
 text-align: center;
-font-size: 50px;
-background-color: #E9E9E9;
-box-shadow: 5px 5px 30px white;
-background-image: url(sunny.jpg);
-background-position: center;
-
-
-
-
+font-size: 50px; 
 }
 
 
