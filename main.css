@@ -1,28 +1,46 @@
-.title {
-display: flex;
+
+/*display: flex;
 justify-content:center;
-padding: 40px;
+padding: 40px;*/
 /*box-shadow: 5px 5px 30px white;*/
 /*background-image: url(sunny.jpg);*/
-/*background-position: center;*/
+/*background-position: center;
 background-image: url(docworldback2.png);
 background-attachment: fixed;
 background-position: center;
-background-repeat: no-repeat;
+background-repeat: no-repeat;*/
 
-/*opacity: 0.5;*/
 
-}
-/*.title2{
- font-family: 'ZCOOL XiaoWei', serif;
+.title{
+  background-image: radial-gradient(circle, lightblue, white);
+  font-family: 'Lobster', cursive;
+ /*font-family: 'ZCOOL XiaoWei', serif;*/
 color: white;
 padding: 60px;
 margin-left: 16px;
 text-shadow: 3px 3px 8px black;
 text-align: center;
-font-size: 50px; 
-}*/
+font-size: 60px; 
+outline-style: solid;
+outline-color: black;
+outline-width: 2px;
+box-shadow: 5px 5px black;
 
+/*background-color: #lightblue;*/
+}
+
+hr{
+    display: block;
+    height: 10px;
+    border: 0;
+    border-top: 1px solid black;
+    margin: 1em 1em;
+    padding: 10; 
+    
+    
+}
+
+}
 
 .sidenav {
 	
@@ -54,12 +72,16 @@ body {
 }
 
 .sidenav a {
+  display: flex;
+  justify-content: space-around;
 	text-shadow: 3px 3px 6px black;
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 25px;
   color: white;
   display: inline-block;
+  padding: 20px;
+  margin: 10px;
   
 
 }
@@ -87,9 +109,20 @@ a:hover{
 
 
 
-.time{
+#time{
+  display: flex;
 	float:right;
-	/*padding: 50px;*/
+	/*margin: 50px;*/
 	/*box-shadow: 2px 2px 10px white;*/
 
 }
+
+.dont{
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  padding: 20px;
+  text-shadow: 3px 3px 6px black;
+}
+
+
