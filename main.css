@@ -12,7 +12,7 @@ background-repeat: no-repeat;*/
 
 
 .title{
-  background-image: radial-gradient(circle, lightblue, white);
+ /* background-image: radial-gradient(circle, lightblue, white);*/
   font-family: 'Lobster', cursive;
  /*font-family: 'ZCOOL XiaoWei', serif;*/
 color: white;
@@ -21,10 +21,10 @@ margin-left: 16px;
 text-shadow: 3px 3px 8px black;
 text-align: center;
 font-size: 60px; 
-outline-style: solid;
-outline-color: black;
+/*outline-style: solid;
+outline-color: grey;
 outline-width: 2px;
-box-shadow: 5px 5px black;
+box-shadow: 10px 10px grey;*/
 
 /*background-color: #lightblue;*/
 }
@@ -36,6 +36,7 @@ hr{
     border-top: 1px solid black;
     margin: 1em 1em;
     padding: 10; 
+    opacity: 0.4;
     
     
 }
@@ -57,7 +58,7 @@ hr{
   left: 0;*/
   /*background-color: #8FC0A9;*/
   /*overflow-x: hidden;*/
-  padding-top: 20px;
+  padding-top: 10px;
   margin: 20px;
   display: inline-block;
 
@@ -65,9 +66,9 @@ hr{
 body {
 	/*background-image: url(tropicalbackground.jpg);*/
 
-	background-attachment: fixed;
+	/*background-attachment: fixed;
 	background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover;*/
   background-color: lightblue;
 }
 
@@ -75,7 +76,7 @@ body {
   display: flex;
   justify-content: space-around;
 	text-shadow: 3px 3px 6px black;
-  padding: 6px 8px 6px 16px;
+  /*padding: 2px 3px 2px 8px;*/
   text-decoration: none;
   font-size: 25px;
   color: white;
@@ -84,10 +85,14 @@ body {
   margin: 10px;
   
 
+  
+
 }
 
 .sidenav a:hover {
   color: yellow;
+  transform: scale(1.1);
+
 }
 
 .cells {
@@ -100,11 +105,15 @@ body {
 }
 
 a {
+  font-family: 'Lobster', cursive;
   color: white;
 
 }
 a:hover{
   color: #FFFF3C;
+  transform: scale(1.1);
+  
+
 }
 
 
@@ -125,4 +134,8 @@ a:hover{
   text-shadow: 3px 3px 6px black;
 }
 
-
+div.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
