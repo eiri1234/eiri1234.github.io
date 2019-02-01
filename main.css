@@ -15,7 +15,7 @@ background-repeat: no-repeat;*/
  /* background-image: radial-gradient(circle, lightblue, white);*/
   font-family: 'Lobster', cursive;
  /*font-family: 'ZCOOL XiaoWei', serif;*/
-color: white;
+color: #88ee00;
 padding: 60px;
 margin-left: 16px;
 text-shadow: 3px 3px 8px black;
@@ -79,7 +79,7 @@ body {
   /*padding: 2px 3px 2px 8px;*/
   text-decoration: none;
   font-size: 25px;
-  color: white;
+  color: #88ee00;
   display: inline-block;
   padding: 20px;
   margin: 10px;
@@ -106,11 +106,11 @@ body {
 
 a {
   font-family: 'Lobster', cursive;
-  color: white;
+  color: #88ee00;
 
 }
 a:hover{
-  color: #FFFF3C;
+  color: yellow;
   transform: scale(1.1);
   
 
