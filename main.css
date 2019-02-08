@@ -142,4 +142,6 @@ div.sticky {
 
 .embedded-chat{
   float: right;
+  position: sticky;
+  top: 0;
 }
