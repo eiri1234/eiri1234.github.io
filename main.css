@@ -139,3 +139,7 @@ div.sticky {
   position: sticky;
   top: 0;
 }
+
+.embedded-chat{
+  float: right;
+}
