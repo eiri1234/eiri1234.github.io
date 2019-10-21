@@ -13,7 +13,8 @@ background-repeat: no-repeat;*/
 
 .title{
  /* background-image: radial-gradient(circle, lightblue, white);*/
-  font-family: 'Lobster', cursive;
+ /* font-family: 'Lobster', cursive;*/
+  font-family: 'Love Ya Like A Sister', cursive;
  /*font-family: 'ZCOOL XiaoWei', serif;*/
 color: #88ee00;
 padding: 60px;
@@ -69,7 +70,7 @@ body {
 	/*background-attachment: fixed;
 	background-repeat: no-repeat;
   background-size: cover;*/
-  background-color: lightblue;
+  background-color: white;
 }
 
 .sidenav a {
