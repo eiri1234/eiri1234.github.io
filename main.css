@@ -28,6 +28,7 @@ outline-width: 2px;
 box-shadow: 10px 10px grey;*/
 
 /*background-color: #lightblue;*/
+
 }
 
 hr{
@@ -90,9 +91,9 @@ body {
 
 }
 
-.sidenav a:hover {
+.cells :hover {
   color: yellow;
-  transform: scale(1.1);
+  transform: scale(1.4);
 
 }
 
@@ -105,7 +106,7 @@ body {
 
 }
 
-a {
+a  {
   font-family: 'Love Ya Like A Sister', cursive;
   color: #88ee00;
 
@@ -113,10 +114,18 @@ a {
 a:hover{
   color: yellow;
   transform: scale(1.1);
+
   
 
 }
 
+.title:hover{
+  color: yellow;
+  transform: scale(1.1);
+
+  
+
+}
 
 
 /*#time{
@@ -127,13 +136,10 @@ a:hover{
 
 }
 
-.dont{
-  display: flex;
-  justify-content: center;
-  margin: 20px;
-  padding: 20px;
-  text-shadow: 3px 3px 6px black;
-}
+
+
+
+
 
 div.sticky {
   position: -webkit-sticky; /* Safari */
