@@ -15,46 +15,30 @@ margin-left: 16px;
 text-shadow: 3px 3px 8px black;
 text-align: left;
 font-size: 20px; 	
-}
-
-.divbackground{
-
-
-
-background: rgba(127, 154, 154,.5);
-
 
 }
 
-.widget{
+.divbackground {
 
-	z-index: 2;
+background-size: cover;
+
+background-image: url(palmtreebackground.jpg);
+background-attachment: fixed;
+background-position: 18% 23%;
+
+
+
+}
+
+#willy{
+
+	display: block;
+margin-left: 30%;
+margin-right: auto;
+
+
+}
+
+
 
 	
-}
-.willy{
-	display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
-	
-	
-}
-
-.frames:hover{
-	transform: scale(1.8);
-	padding: 20px;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.radar{
-	padding: 20px;
-}
-
-.scripps_iframe_embed{
-	display: block;
-	margin-left: auto;
-  margin-right: auto;
-}
