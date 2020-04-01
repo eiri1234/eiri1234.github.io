@@ -1,0 +1,36 @@
+.title1{
+	text-align: center;
+	padding-top: 2em;
+	padding-bottom: 2em;
+font-family: minisys;
+background-color: black;
+color: green;
+font-size: 60px;
+
+}
+
+
+.sidenav{
+	background-color: black;
+	padding-top: 1em;
+	padding-bottom: 4em;
+	color: green;
+	margin-left: auto;
+	padding-left: 2em;
+
+	 }
+
+
+
+.divbackground{
+background-color: black;
+padding-left: 2em;
+display: inline-grid;
+
+}
+
+
+@font-face{
+font-family: 'minisys';
+
+}
