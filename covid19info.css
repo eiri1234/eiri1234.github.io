@@ -1,7 +1,7 @@
 .title1{
 	text-align: center;
-	padding-top: 2em;
-	padding-bottom: 2em;
+	padding-top: 0.5em;
+	padding-bottom: 1em;
 font-family: minisystem;
 background-color: black;
 color: green;
@@ -10,27 +10,40 @@ font-size: 60px;
 }
 
 
-.sidenav{
+.sidenav {
+	color: blue;
 	background-color: black;
 	padding-top: 1em;
-	padding-bottom: 4em;
-	color: green;
+	padding-bottom: 2em;
 	margin-left: auto;
 	padding-left: 2em;
+	font-family: minisystem;
+	border: 1px solid lightgreen;
 
 	 }
 
+	
 
 
-.divbackground{
+
+
+.divbackground {
+	
 background-color: black;
-padding-left: 2em;
-display: inline-grid;
+padding-left: 10%;
+padding-top: 50px;
+padding-bottom: 50px;
+
+align-content: center; 
 
 }
 
-
-@font-face{
-font-family: 'minisys';
-
+.doomsdayclock{
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 1em;
 }
+
+
+
+
