@@ -1248,6 +1248,20 @@ section.lazy-placeholder:after {
     width: 100% !important;
   }
 }
+.cid-s3BcqtUBx8 {
+  background: #149dcc;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: linear-gradient(0deg, #149dcc, #ffffff);
+}
+.cid-s3BcqtUBx8 .video-block {
+  margin: auto;
+}
+@media (max-width: 768px) {
+  .cid-s3BcqtUBx8 .video-block {
+    width: 100% !important;
+  }
+}
 .cid-s21oz3LHnn {
   background: #149dcc;
   padding-top: 60px;
@@ -2451,6 +2465,46 @@ section.lazy-placeholder:after {
   box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
   transition: box-shadow 0.3s;
 }
+.cid-s4aJmqkfNv {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #efefef;
+}
+.cid-s4aJmqkfNv .card-box {
+  padding: 0 2rem;
+}
+.cid-s4aJmqkfNv .mbr-section-btn {
+  padding-top: 1rem;
+}
+.cid-s4aJmqkfNv .mbr-section-btn a {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+.cid-s4aJmqkfNv h4 {
+  font-weight: 500;
+  margin-bottom: 0;
+  text-align: left;
+  padding-top: 2rem;
+}
+.cid-s4aJmqkfNv p {
+  margin-bottom: 0;
+  text-align: left;
+  padding-top: 1.5rem;
+}
+.cid-s4aJmqkfNv .mbr-text {
+  color: #767676;
+}
+.cid-s4aJmqkfNv .card-wrapper {
+  height: 100%;
+  padding-bottom: 2rem;
+  background: #ffffff;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  transition: box-shadow 0.3s;
+}
+.cid-s4aJmqkfNv .card-wrapper:hover {
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s;
+}
 .cid-s13WhzfqZO {
   background: #149dcc;
   padding-top: 60px;
@@ -2518,6 +2572,34 @@ section.lazy-placeholder:after {
 }
 @media (max-width: 768px) {
   .cid-s1wcNaEJM9 .video-block {
+    width: 100% !important;
+  }
+}
+.cid-s4aFSYkSVY {
+  background: #149dcc;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: linear-gradient(0deg, #149dcc, #ffffff);
+}
+.cid-s4aFSYkSVY .video-block {
+  margin: auto;
+}
+@media (max-width: 768px) {
+  .cid-s4aFSYkSVY .video-block {
+    width: 100% !important;
+  }
+}
+.cid-s4aJ3kaBvR {
+  background: #149dcc;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: linear-gradient(0deg, #149dcc, #ffffff);
+}
+.cid-s4aJ3kaBvR .video-block {
+  margin: auto;
+}
+@media (max-width: 768px) {
+  .cid-s4aJ3kaBvR .video-block {
     width: 100% !important;
   }
 }
