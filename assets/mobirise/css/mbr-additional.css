@@ -1877,6 +1877,20 @@ section.lazy-placeholder:after {
     width: 100% !important;
   }
 }
+.cid-s4JH0Papaj {
+  background: #149dcc;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: linear-gradient(0deg, #149dcc, #ffffff);
+}
+.cid-s4JH0Papaj .video-block {
+  margin: auto;
+}
+@media (max-width: 768px) {
+  .cid-s4JH0Papaj .video-block {
+    width: 100% !important;
+  }
+}
 .cid-s3prroRvmd {
   background: #149dcc;
   padding-top: 60px;
