@@ -1821,6 +1821,20 @@ section.lazy-placeholder:after {
     width: 100% !important;
   }
 }
+.cid-s7W8z6b6rv {
+  background: #149dcc;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: linear-gradient(0deg, #149dcc, #ffffff);
+}
+.cid-s7W8z6b6rv .video-block {
+  margin: auto;
+}
+@media (max-width: 768px) {
+  .cid-s7W8z6b6rv .video-block {
+    width: 100% !important;
+  }
+}
 .cid-s1KmLfYYxS {
   background: #149dcc;
   padding-top: 60px;
