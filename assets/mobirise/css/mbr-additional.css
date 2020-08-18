@@ -2371,6 +2371,9 @@ section.lazy-placeholder:after {
   box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
   transition: box-shadow 0.3s;
 }
+.cid-s2KHrCSHol .card-title {
+  text-align: center;
+}
 .cid-s2KHr2LmVP {
   padding-top: 90px;
   padding-bottom: 90px;
@@ -2410,6 +2413,9 @@ section.lazy-placeholder:after {
 .cid-s2KHr2LmVP .card-wrapper:hover {
   box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
   transition: box-shadow 0.3s;
+}
+.cid-s2KHr2LmVP .card-title {
+  text-align: center;
 }
 .cid-s2KQZj8aft {
   padding-top: 90px;
@@ -2451,6 +2457,9 @@ section.lazy-placeholder:after {
   box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
   transition: box-shadow 0.3s;
 }
+.cid-s2KQZj8aft .card-title {
+  text-align: center;
+}
 .cid-s4aJmqkfNv {
   padding-top: 90px;
   padding-bottom: 90px;
@@ -2490,6 +2499,9 @@ section.lazy-placeholder:after {
 .cid-s4aJmqkfNv .card-wrapper:hover {
   box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
   transition: box-shadow 0.3s;
+}
+.cid-s4aJmqkfNv .card-title {
+  text-align: center;
 }
 .cid-s5Gy9EB0lH {
   background: #149dcc;
