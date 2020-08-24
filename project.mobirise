@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "My Site",
-    "currentPage": "news.html",
+    "currentPage": "newspage1.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -3474,7 +3474,7 @@
         }
       ]
     },
-    "news.html": {
+    "newspage1.html": {
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "DocWorldNews",
