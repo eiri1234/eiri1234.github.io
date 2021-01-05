@@ -1,0 +1,167 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(fijiunsplash.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /*height: 150vh;*/
+    
+}
+
+.nav1{
+    
+    text-align: center;
+    background-color: rgba(0,0,0,.3);
+    height: 100px;
+    position: sticky;
+    
+    
+    
+}
+
+
+ul {
+    
+    text-decoration: none;   
+    display: inline;
+    /*border-bottom: 1px solid white;*/
+    
+    
+}
+
+li{
+    
+    list-style-type: none;
+    display: inline;
+    
+    
+    
+}
+
+ 
+.fijititle a {
+    
+    color: orange;
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    display: inline-block;
+    
+    margin: 30px;
+    text-align: center;
+    
+   
+    /*position: relative;*/
+    
+    
+    
+    
+
+    
+  }
+
+  .left{
+      
+      float: left;
+      padding-left: 20%;
+      padding-top: 10px;
+      transition-property: width;
+    transition: delay 1s;
+    margin: 30px;
+    
+      
+  }
+
+  .right{
+      float: right;
+      padding-right: 20%;
+      padding-top: 10px;
+      margin: 30px;
+  }
+
+
+a{
+    
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+    color: white;
+    text-decoration: none;
+    padding: 0 20px 0 20px;
+    text-shadow: 2px 2px black;
+    transition-property: width;
+    
+    
+    
+    
+    
+}
+a:hover{
+    width: 100px;
+    color: orange;
+    
+}
+
+.youtcells{
+   margin-left: 30px;
+   margin-top: 100px;
+   padding: 20px;
+   
+
+
+}
+
+
+iframe{
+    padding: 10px;
+    
+}
+
+
+ 
+
+
+
+.sideline1{
+    position: relative;
+    display: inline;
+    opacity: .3;
+    padding: 120px;
+    position: sticky;
+    top: 0px;
+    
+
+}
+
+.sideline2{
+    position: relative;
+    display: inline;
+    opacity: .9;
+    padding: 120px;
+    position: sticky;
+    top: 0px;
+    
+
+}
+
+.sideline3{
+    position: relative;
+    display: inline;
+    opacity: .9;
+    padding: 120px;
+    position: sticky;
+    top: 0px;
+    
+    
+
+}
+
+.sideline4{
+    position: relative;
+    display: inline;
+    opacity: .9;
+    padding: 120px;
+    position: sticky;
+    top: 0px;
+    
+    
+
+}
