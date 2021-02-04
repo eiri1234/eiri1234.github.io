@@ -10,7 +10,7 @@ body{
 }
 
 .nav1{
-    
+    margin: -20px 0px;
     text-align: center;
     background-color: rgba(0,0,0,.3);
     height: 150px;
@@ -167,11 +167,12 @@ a:hover{
   }
 
 .youtcells{
-   margin-left: 30px;
+   margin-left: 10%;
    margin-top: 100px;
    padding: 20px;
-   display: list-item;
-   justify-content: center;
+   
+   
+   
    
    
 
