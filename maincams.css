@@ -1,8 +1,8 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-image: url(fiji.jpg);
-    background-size: 100%;
+    background-image: url(blue-gradient-background.png);
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     /*height: 150vh;*/
@@ -94,6 +94,77 @@ a:hover{
     
 }
 
+
+
+.container{
+    position: relative;
+    display: inline-block;
+    margin: 70px;
+    border-radius: 20px;
+    width: 600px;
+    height: 200px;
+    background-color: rgba(0,0,0,.3);
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    
+    
+    
+    
+    
+  
+  }
+  
+  .radioimg{
+    position: relative;
+    width: 90px;
+    margin: 10px;
+    opacity: .8;
+    float: right;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+  }
+  
+  audio{
+    filter: invert();
+    height: 10px;
+    opacity: .3;
+    margin: 20px;
+    padding: 60px;
+    
+  
+  }
+  
+  audio :hover{
+  
+    transform: scale(1.1);
+  }
+  
+  h2{
+    
+    padding: 50px;
+    text-decoration: underline;
+    font-family: minisystem;
+    display: inline;
+    position: relative;
+    font-size: 30px;
+    color: greenyellow;
+  }
+  
+  h3{
+    
+    display: inline;
+    width: 20%;
+    font-family: minisystem;
+    font-style: italic;
+    position: relative;
+    font-size: 20px;
+    color:greenyellow;
+    
+  }
+
 .youtcells{
    margin-left: 30px;
    margin-top: 100px;
@@ -139,3 +210,24 @@ iframe{
         background-repeat: no-repeat;
         background-attachment: fixed;
     }
+    .container{
+      height:100px;
+      width:400px;
+    }
+    .radioimg{
+      width:20px;
+      height: 20px;
+      margin-top: -50px;
+    }
+    h2{
+      font-size: 20px;
+    }
+    h3{
+      font-size: 15px;
+    }
+    .control{
+      margin-top: -30px;
+      margin-left: -30px;
+      
+    }
+  }
