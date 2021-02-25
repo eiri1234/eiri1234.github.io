@@ -127,6 +127,14 @@ a:hover{
     border-color: black;
     border-width: 1px;
   }
+  .radioimg{
+    transition: transform 2s linear ;
+    transition-duration: infinite;
+  }
+
+  .radioimg:hover{
+    transform: rotateY(360deg);
+  }
   
   audio{
     filter: invert();
@@ -174,10 +182,10 @@ a:hover{
    
    
    
-   
-
-
 }
+
+
+
 
 
 iframe{
