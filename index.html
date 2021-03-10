@@ -32,7 +32,12 @@
        
         
         </div>
-        <script src="main.js" async defer></script>
+        <script>
+          function cb(response) {
+              document.getElementById('visits').innerText = response.value;
+          }
+          </script>
+          <script async src="https://api.countapi.xyz/hit/documentaryworld.net/visits?callback=cb"></script>
     
         
         <div class="container">
