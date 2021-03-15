@@ -205,6 +205,14 @@ iframe{
     float: left;
 }
 
+.gabicon{
+  transition-duration: 1s;
+}
+
+.gabicon:hover{
+  transform: scale(2);
+}
+
 
 @media screen and (max-width: 726px){
    
