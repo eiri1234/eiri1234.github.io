@@ -72,7 +72,7 @@ li{
   }
 
 
-a{
+#lia{
     display: inline;
     font-size: 20px;
     font-family: 'Lobster', cursive;
@@ -88,7 +88,7 @@ a{
     
     
 }
-a:hover{
+#lia:hover{
     
     color: orange;
     
@@ -211,6 +211,19 @@ iframe{
 
 .gabicon:hover{
   transform: scale(2);
+}
+a#icona{
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+    color: white;
+    text-decoration: none;
+  
+  
+}
+
+#icona:hover{
+  color: orange;
+  
 }
 
 
