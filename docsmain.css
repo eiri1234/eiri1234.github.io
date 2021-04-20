@@ -108,33 +108,69 @@ a{
     
 }
 a:hover{
-    background-color: #ddd;
+    background-color: rgb(10, 159, 218);
   
 }
 
-
-video{
+.frames iframe{
     
-margin-left: 500px;
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40em;
+    width: 60em;
+    margin-left: 30%;
 
-.eyeframes{
-   margin-left: 500px;
+}
+.frames video{
+    margin-left: 30%;
+    height: 40em;
+    width: 60em;
 }
 
 
 .h1title{
-    width: 700px;
-    padding-top: 100px;
-    margin-left: 800px;
-    text-decoration-line:underline;
-    align-items: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 100px;
+   padding: 30px;
+   font-size: 50px;
+    
 }
 .h2title{
-    width: 1000px;
-    padding: 30px;
-    margin-left: 500px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 20%;
     
+}
+
+hr{
+    height: 1px;
+    margin: 30px;
+    width: 50%;
+    margin-left: 23%;
+}
+
+footer{
+    height: 200px;
+    background-color: black;
+}
+
+footer img{
+    height: 100px;
+    width: 100px;
+    margin-top: 40px;
+    
+}
+
+footer #facebook-icon{
+    margin-left: 1000px;
+}
+
+footer #instagram-icon{
+    margin-left: 30px;
 }
 
 @media screen and (max-width: 900px){
