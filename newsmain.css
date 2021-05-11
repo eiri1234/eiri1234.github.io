@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+
+.header{
+    
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    margin-bottom: 50px;
+}
+
+
+
+.title{
+    display: inline-block;
+    font-family: 'Special Elite', cursive;
+    font-size: 40px;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    
+}
+
+ul{
+    font-family: 'Special Elite', cursive;
+    display: flex;
+    color: white;
+    float: right;
+    list-style:none;
+
+}
+
+li{
+    
+    margin-right:20px;
+    padding-left: 20px;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: yellow;
+}
+
+.coin{
+    display: inline;
+    
+}
+
+.dailymail{
+    
+    display: inline;
+    margin: 20px;
+    
+
+}
+
+.drudge{
+
+    margin: 20px;
+    display: inline;
+
+}
+
+.infowars{
+    margin: 20px;
+    display: inline;
+}
+
+.containerright{
+    display: flex;
+    flex-direction: column;
+    float:right;
+    margin-top: 400px;
+}
+
+.unsplash{
+    display: inline;
+}
+
+.infotv {
+    display: inline;
+    margin-top: -400px;
+}
