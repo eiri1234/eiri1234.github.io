@@ -35,6 +35,7 @@
 .control{
     display: inline;
     margin: 50%;
+    float: left;
 }
 
 ul{
