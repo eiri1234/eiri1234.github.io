@@ -9,10 +9,11 @@
 
 .header{
     
-    height: 110px;
+    height: 100px;
     width: 100%;
     background-color: black;
-    margin-bottom: 100px;
+    margin-bottom: 10px;
+    
 }
 
 
@@ -22,9 +23,9 @@
     font-family: 'Special Elite', cursive;
     font-size: 40px;
     color: white;
-    padding: 10px;
+    /*padding: 10px;
     margin: 10px;
-    
+    */
 }
 
 .hound{
@@ -34,9 +35,41 @@
 
 .control{
     display: inline;
-    margin: 50%;
-    left: 10px;
+   /* height: 100px;
+    margin: 300px; 
+    margin-top: 200px;*/
+    margin-bottom: 20px;
+   
 }
+
+.tvbuttons{
+    display: inline;
+    float: right;
+    margin-right: 20px;
+
+}
+
+.rssblocks{
+    
+    width: 1400px;
+    height: 800px;
+    
+
+}
+
+.containerright{
+    display: flex;
+    flex-direction: column;
+    float:right;
+    margin-top: -780px;
+    height: 800px;
+    width: 600px;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    
+}
+
 
 ul{
     font-family: 'Special Elite', cursive;
@@ -74,40 +107,32 @@ a:hover{
 .dailymail{
     
     display: inline;
-    margin: 20px;
+    margin-left: 30px;
     
 
 }
 
 .drudge{
 
-    margin: 20px;
+    margin-left: 30px;
     display: inline;
 
 }
 
 .infowars{
-    margin: 20px;
+    margin-left: 30px;
     display: inline;
 }
 
-.containerright{
-    display: flex;
-    flex-direction: column;
-    float:right;
-    margin-top: 0px;
-    height: 700px;
-    width: 600px;
-    overflow-x: hidden;
-    overflow-y: auto;
 
-    
-}
+
+
+
 
 
 .infotv {
     display: inline;
-    margin-top: 
+    
 }
 
 
@@ -129,6 +154,7 @@ a:hover{
     height: 50px;
     border-radius: 40px;
     
+    
 }
 
 .btninfo{
@@ -149,8 +175,3 @@ a:hover{
     border-radius: 40px;
 }
 
-.tvbuttons{
-    display: inline;
-    float: right;
-    margin-right: 20px;
-}
