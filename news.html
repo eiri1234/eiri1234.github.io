@@ -7,6 +7,7 @@
     <title>News Hound</title>
     <link rel="icon" href="newshound.png">
     <link href="newsmain.css" rel="stylesheet">
+    <script src="main.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet"> 
 </head>
@@ -33,9 +34,15 @@
          <audio controls>
             <source src="https://node-28.zeno.fm/cygwwun7a5zuv?rj-ttl=5&rj-tok=AAABeVyLuLMAH-hYAcKQqjqQGw" type="audio/mpeg">
          </audio>
+
+         
          <div class="tvbuttons">
-       <a href="#infotv"> <button class="btninfo">WarRoom</button></a> <a href="#rtnewstv"> <button class="btnrt">RT News</button></a>  <a href="#france24"> <button class="btnfrance24">France 24</button></a>
-         </div>
+            <button class="btn1" type="button" onclick = "myFunction('https://www.breitbart.com/')">breitbart</button> <button class="btn2" type="button" onclick = "myFunction1('https://www.zerohedge.com/')">Zero Hedge</button> <button class="btn3" type="button" onclick = "myFunction2('https://www.washingtonpost.com/')">Washington post</button>
+       <a href="#infotv"> <button class="btninfo">WarRoom</button></a> <a href="#rtnewstv"> <button class="btnrt">RT News</button></a>  <a href="#france24"> <button class="btnfrance24">France 24</button></a> <a href="#newsmax"><button class="btnnewsmax">Newsmax</button></a>
+        
+      
+      
+      </div>
 
       </div>
    
@@ -43,17 +50,18 @@
    <div class="rssblocks">
 
          <div class="dailymail">
-            <iframe width="400" height="800" src="https://news.sky.com/world" frameBorder="0"></iframe>
+            <iframe id="sky" width="400" height="850" src="https://news.sky.com/world" frameBorder="0"></iframe>
          </div>
 
         <div class="drudge">
-          <iframe width="400" height="800" src="https://apnews.com/" frameBorder="0"></iframe>
+          <iframe id="drudge" width="400" height="850" src="https://apnews.com/" frameBorder="0"></iframe>
         </div>
 
         <div class="infowars">
-          <iframe width="400" height="800" src="https://www.newswars.com/feed/custom_feed_rss" frameBorder="0"></iframe>
+          <iframe id="infowars" width="400" height="850" src="https://www.newswars.com/feed/custom_feed_rss" frameBorder="0"></iframe>
         </div>
-
+         
+        
    </div>
      
      <div class="containerright">
@@ -74,11 +82,15 @@
     <iframe width="600" height="400" src="https://www.youtube.com/embed/f9JV-O1GF6c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
    </div>
 
+   <div id="newsmax">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/39WrSskl3XE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+
    </div>
 
-  <div class="coin"> <script src="https://widgets.coingecko.com/coingecko-coin-price-static-headline-widget.js"></script>
+  <!--<div class="coin"> <script src="https://widgets.coingecko.com/coingecko-coin-price-static-headline-widget.js"></script>
              <coingecko-coin-price-static-headline-widget  coin-ids="bitcoin,ethereum,binancecoin,eos,litecoin,ripple,dogecoin,chainlink,stellar,cardano,polkadot,monero" currency="usd" locale="en"></coingecko-coin-price-static-headline-widget>
-           </div>
+           </div>-->
 
 </body>
 </html>
