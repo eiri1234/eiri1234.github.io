@@ -1,7 +1,11 @@
+var frame1 = document.getElementById("sky");
+var button = document.getElementsByClassName("btn1");
+
 function myFunction(linkName){
-    link = document.getElementById("sky");
+    var link = document.getElementById("sky");
     link.src = linkName;
-}
+  }
+
 
 function myFunction1(linkName){
 link = document.getElementById("drudge");
