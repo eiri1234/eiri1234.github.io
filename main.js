@@ -15,3 +15,8 @@ function myFunction2(linkName){
  link.src = linkName;
 
 }
+
+function myFunction3(vid){
+    link = document.getElementById("sky");
+    link.src = vid;
+}
