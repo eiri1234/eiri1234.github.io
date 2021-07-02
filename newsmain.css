@@ -34,11 +34,8 @@
 }
 
 .control{
-    display: inline;
-   /* height: 100px;
-    margin: 300px; 
-    margin-top: 200px;*/
-    margin-bottom: 20px;
+    display: block;
+    height: 100px;
    
 }
 
@@ -146,6 +143,8 @@ a:hover{
     display: inline;
 }
 
+
+
 .btnrt{
     background-color: green;
     color: black;
@@ -202,7 +201,7 @@ a:hover{
 }
 
 .btn4{
-    background-color: blue;
+    background-color: red;
     color: white;
     padding: 10px;
     font-weight: bold;

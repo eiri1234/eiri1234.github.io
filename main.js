@@ -16,7 +16,7 @@ function myFunction2(linkName){
 
 }
 
-function myFunction3(vid){
+function myFunction4(linkName){
     link = document.getElementById("sky");
-    link.src = vid;
+    link.src = linkName;
 }
