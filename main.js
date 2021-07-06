@@ -1,7 +1,7 @@
 function myFunction(linkName){
     link = document.getElementById("sky");
     link.src = linkName;
-    btn1.style.color="black";
+    
 }
 
 function myFunction1(linkName){
@@ -19,4 +19,12 @@ function myFunction2(linkName){
 function myFunction4(linkName){
     link = document.getElementById("sky");
     link.src = linkName;
+}
+
+function myFunction5(){
+    var sky = document.getElementById("sky");
+    var drudge = document.getElementById("drudge");
+    var infowars = document.getElementById("infowars");
+
+    sky.toggleAttribute("disabled");
 }
