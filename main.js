@@ -1,7 +1,7 @@
 function myFunction(linkName){
     link = document.getElementById("sky");
     link.src = linkName;
-    btn1.style.color="black";
+    
 }
 
 function myFunction1(linkName){
