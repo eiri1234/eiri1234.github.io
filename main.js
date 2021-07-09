@@ -1,7 +1,7 @@
 function myFunction(linkName){
     link = document.getElementById("sky");
     link.src = linkName;
-    
+    btn1.style.color="black";
 }
 
 function myFunction1(linkName){
@@ -21,10 +21,17 @@ function myFunction4(linkName){
     link.src = linkName;
 }
 
-function myFunction5(){
+function myFunction5(skylink,aplink,infolink){
     var sky = document.getElementById("sky");
     var drudge = document.getElementById("drudge");
     var infowars = document.getElementById("infowars");
 
-    sky.toggleAttribute("disabled");
+    sky = document.getElementById("sky");
+    sky.src = skylink;
+
+    ap = document.getElementById("drudge");
+    ap.src = aplink;
+
+    info = document.getElementById("infowars");
+    info.src = infolink;
 }
