@@ -185,18 +185,23 @@ a:hover{
     font-weight: bold;
     height: 50px;
     border-radius: 40px;
-    text-decoration: underline;
     
+}
 
+u{
+    text-decoration-color: yellow;
+    text-decoration-thickness:2px;
 }
 
 .btn3{
-    background-color: white;
-    color: black;
+    background-color: #003365;
+    color: white;
     padding: 10px;
     font-weight: bold;
     height: 50px;
     border-radius: 40px;
+    
+    
     
 
 }
@@ -208,6 +213,19 @@ a:hover{
     font-weight: bold;
     height: 50px;
     border-radius: 40px;
+    
+    
+}
+
+.btn5{
+    background-color: rgb(86, 88, 121);
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    height: 50px;
+    border-radius: 40px;
+    
+    
 }
 
 .btninfo{
