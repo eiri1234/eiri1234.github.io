@@ -228,6 +228,17 @@ u{
     
 }
 
+.btn6{
+    background-color: rgb(46, 173, 63);
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    height: 50px;
+    border-radius: 40px;
+    
+    
+}
+
 .btninfo{
     background-color: black;
     color: white;

@@ -35,3 +35,8 @@ function myFunction5(skylink,aplink,infolink){
     info = document.getElementById("infowars");
     info.src = infolink;
 }
+
+function myFunction6(linkName){
+    link = document.getElementById("drudge");
+    link.src = linkName;
+}
