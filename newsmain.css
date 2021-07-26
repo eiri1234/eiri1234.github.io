@@ -257,3 +257,51 @@ u{
     border-radius: 40px;
 }
 
+@media screen and (max-width: 600px) {
+    .title{ 
+    height: 20px;
+    width: 20px;
+    font-size: 20px;
+}
+.hound{
+    margin-left: 30px;
+    
+}
+.control{
+    display: none;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+}
+
+li{
+    
+    margin-right: -160px;
+    font-size: 10px;
+    margin: 1px;
+    padding: 4px;
+}
+
+.tvbuttons{
+    display: flex;
+    
+}
+
+
+.containerright{
+    display: none;
+}
+
+.rssblocks{
+    width: 70%;
+    height: 400px;
+    margin-top: 200px;
+}
+
+#sky, #drudge, #infowars{
+    width: 300px;
+    height: 300px;
+}
+}
