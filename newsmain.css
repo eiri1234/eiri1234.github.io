@@ -313,4 +313,8 @@ li{
     .containerright{
         display: none;
     }
+
+    .btninfo, .btnrt, .btnfrance24, .btnnewsmax{
+        display: none;
+    }
 }
