@@ -257,7 +257,7 @@ u{
     border-radius: 40px;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 680px) {
     .title{ 
     height: 20px;
     width: 20px;
@@ -285,6 +285,10 @@ li{
 .btn1, .btn2,.btn3,.btn4,.btn5,.btn6,.btninfo,.btnrt,.btnfrance24,.btnnewsmax{
     height: 30px;
     border-radius: 50px;
+}
+
+.radiocontrol{
+    display: none;
 }
 
 
