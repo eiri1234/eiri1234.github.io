@@ -257,7 +257,7 @@ u{
     border-radius: 40px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
     .title{ 
     height: 20px;
     width: 20px;
@@ -267,9 +267,7 @@ u{
     margin-left: 30px;
     
 }
-.control{
-    display: none;
-}
+
 
 ul{
     display: flex;
@@ -284,9 +282,12 @@ li{
     padding: 4px;
 }
 
-.tvbuttons{
-    display: flex;
+#tvbuttons{
     
+
+    margin-left: 10px;
+    height: 20px;
+
 }
 
 
