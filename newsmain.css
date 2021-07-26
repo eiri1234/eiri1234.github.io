@@ -307,3 +307,10 @@ li{
     height: 300px;
 }
 }
+
+@media screen and (max-width: 1440px){
+
+    .containerright{
+        display: none;
+    }
+}
