@@ -202,8 +202,6 @@ u{
     border-radius: 40px;
     
     
-    
-
 }
 
 .btn4{
@@ -237,6 +235,20 @@ u{
     border-radius: 40px;
     
     
+}
+
+
+.btn7{
+    background-color: #22420d;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    height: 50px;
+    border-radius: 40px;
+    
+    
+    
+
 }
 
 .btninfo{

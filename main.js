@@ -40,3 +40,8 @@ function myFunction6(linkName){
     link = document.getElementById("drudge");
     link.src = linkName;
 }
+
+function myFunction7(linkName){
+    link = document.getElementById("infowars");
+    link.src = linkName;
+}
