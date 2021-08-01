@@ -5,7 +5,11 @@
 }
 
 
-
+html{
+    
+    scroll-behavior: smooth;
+    
+}
 
 .header{
     
