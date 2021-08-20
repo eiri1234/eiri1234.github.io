@@ -45,3 +45,8 @@ function myFunction7(linkName){
     link = document.getElementById("infowars");
     link.src = linkName;
 }
+
+function myFunction8(linkName){
+    link = document.getElementById("infowars");
+    link.src = linkName;
+}
