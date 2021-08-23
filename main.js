@@ -50,3 +50,8 @@ function myFunction8(linkName){
     link = document.getElementById("infowars");
     link.src = linkName;
 }
+
+function myFunction9(linkName){
+    link = document.getElementById("sky");
+    link.src = linkName;
+}

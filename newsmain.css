@@ -275,6 +275,16 @@ u{
     
 }
 
+.btn9{
+    background-color: #1a88e2;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    height: 50px;
+    border-radius: 40px;
+    
+}
+
 .btninfo{
     background-color: black;
     color: white;
