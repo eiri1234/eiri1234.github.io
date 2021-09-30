@@ -6,7 +6,7 @@
 }
 
 body{
-    height: 2000px;
+    height: auto;
     background-color: rgb(242, 245, 248);
 }
 
@@ -100,7 +100,7 @@ body{
 
 }
 
-a{
+.header-a a{
     padding: 10px;
     font-family: 'Special Elite', cursive; 
     font-size: 20px;
@@ -109,14 +109,14 @@ a{
     transition: background-color 150ms;
     
 }
-a:hover{
+.header-a a:hover{
     background-color: rgb(10, 159, 218);
   
 }
 
 .grid-container{
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 20% 20% 20% 40%;
     background-color: rgb(255, 255, 255);
     padding: 10px;
 
@@ -128,22 +128,35 @@ background-color: white;
 padding: 20px;
 font-size: 30px;
 text-align: center;
-height: 20rem;
-width: 20rem;
+/*height: 20rem;
+width: 20rem;*/
+}
+
+.video-frames, #iframe-video{
+    height: 400px;
+    width: 600px;
 }
 
 h2{
-    font-size: 30px;
+    text-decoration: underline;
+    font-size: 20px;
     padding: 10px;
 
 }
 
 h3{
-    font-size: 20px;
+    font-size: 15px;
+    text-overflow: ellipsis;
+}
+
+.thumb-image{
+    height: 200px;
+    width: 360px;
+    cursor: pointer;
 }
 
 footer{
-    height: 200px;
+    height: 100px;
     background-color: black;
 }
 

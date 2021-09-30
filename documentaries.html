@@ -26,6 +26,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="docsmain.css">
+        <link rel="stylesheet" href="mainvideo.css">
     </head>
 
   <!--Head Ends-->  
@@ -35,19 +36,20 @@
 
 <header class="header">
     <div class="logo">News Hound Docs</div>
-    <img class="hound" src="newshound.png" height="70px" width="70px">
+    <img class="hound" src="pics/newshound.png" height="70px" width="70px">
 
       <form class="search-bar">
           <input class="search-input" type="search" placeholder="Search" aria-label="Search" />
         <button type="submit" class="search-btn">
-            <img src="search-24px.svg"/>
+            <img src="pics/search-24px.svg"/>
         </button>
         </form>
        
+        <div class="header-a">
         <a href="https://eiri1234.github.io/documentaries.html">Home</a>
            <a href="#"> News</a>
            <a href="https://eiri1234.github.io">Cams</a>
-       
+        </div>
     
 </header>
        <div class="categories">
@@ -66,9 +68,8 @@
        <div class="grid-container">
          <div class="grid-item">
             <div class="frames">
-                <iframe scrolling="no" frameborder="0" style="border: none;" src="https://www.bitchute.com/embed/TY-vLrz9XCc/"></iframe>
-                <h2>Who is Bill Gates</h1>
-                <h3>Full Documentary about the mysterious Bill Gates and his humble beginnings from colledge drop-out to world software King to Vaccine King.</h2>
+                <img class="thumb-image" src="pics/who is bill gates.png" onclick="videoPlay('https://www.bitchute.com/embed/TY-vLrz9XCc/')"><h2>Who is Bill Gates</h2>
+                <h3>Full Documentary about the mysterious Bill Gates and his humble beginnings from colledge drop-out to world software King to Vaccine King.</h3>
              </div>
          </div>
         <!--grid one ends-->
@@ -76,9 +77,9 @@
         <!--grid begins-->
          <div class="grid-item">
             <div class="frames">
-                <iframe src="https://lbry.tv/$/embed/Covid-Stimulus-Bill-Gives-Billions-of-Dollars-to-Bill-Gates-Connected-Groups/c9f3663264125f45b7fe82aa3e791109927b8a56?r=233PCV4Ey6g68EhvWtUZHH2o54M2enpK" allowfullscreen></iframe>
-                    <h2>Covid Stimulus Bill</h1>
-                    <h3>the Covid stimulus bill gives Bill Gates connected groups billions of dollars.</h2>
+                <img class="thumb-image" src="pics/Dr.LucMontagnier.png" onclick="videoPlay('https://www.bitchute.com/embed/vET2E4xW6Gmp/')">
+                    <h2>Dr. Luc Montagnier Nobel Prize Laureate</h1>
+                    <h3>Dr. Luc Montagnier claims the Virus Variant will come from the vaccinated.</h2>
                  </div>
                   </div>
          <!--grid ends-->
@@ -86,29 +87,37 @@
          <!--grid begins-->
          <div class="grid-item">
             <div class="frames">
-                <iframe  src="https://rumble.com/embed/vbnh8j/?pub=iokn3#?secret=3Lk8dy2Sgo"  allowfullscreen></iframe>
-                 <h2 class="h1title">Dr.Steve Hotze </h1>
-                 <h3 class="h2title">Dr. Steve Hotze Explains the dangers of Covid Vaccine.</h2>
+                <img class="thumb-image" src="pics/highwire.png" onclick="videoPlay('https://media.livecast365.com/highwire/thehighwire/content/1608259113116.mp4')">
+                 <h2 class="h1title">Dr. Sucharit Bhakdi, MD </h1>
+                 <h3 class="h2title">Award-winning virologist, Dr. Sucharit Bhakdi elucidates why the rushed #Covid19 vaccine trials represent the world’s largest medical experiment</h2>
              </div>
                   </div>
          <!--grid ends-->
 
-         <!--grid begins-->
+         <!--grid begins video cell-->
          <div class="grid-item">
-            <div class="frames">
-                <iframe  src='https://www.brighteon.com/embed/27a70cf6-dcf7-430a-91ef-8053cb013535'  frameborder='0' allowfullscreen ></iframe>
-                  <h2 class="h1title">Plandemic </h1>
-                  <h3 class="h2title">Dr. Judy Micovits</h2>
+            <div class="video-frames">
+                <iframe id="iframe-video"  src=''  frameborder='0' allowfullscreen ></iframe>
+                  <h2></h2> 
+                  <h3></h3>
            </div>
                   </div>
          <!--grid ends-->
+         
+         <!--grid begins-->
+         <div class="grid-item">
+            <div class="frames">
+                <img class="thumb-image" src="pics/Dr.JudyMicovits.png" onclick="videoPlay('https://www.brighteon.com/embed/27a70cf6-dcf7-430a-91ef-8053cb013535')">
+                    <h2 class="h1title">PLANDEMIC</h2>
+                    <h3 class="h2title">Dr. Judy Mikovits PHD Molecular Biologist/Medical Researcher. </h3>
+                </div>
+                  </div>
+         <!--grid ends-->
 
-
-
-         <div class="grid-item">3</div>
-         <div class="grid-item">4</div>
-         <div class="grid-item">5</div>
-         <div class="grid-item">6</div>
+         <div class="grid-item"></div>
+         <div class="grid-item"></div>
+         <div class="grid-item"></div>
+         
         
         </div>
       
@@ -132,6 +141,6 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         
-        <script src="" async defer></script>
+        <script src="documentaries.js" async defer></script>
     </body>
 </html>
