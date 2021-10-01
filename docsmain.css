@@ -135,8 +135,15 @@ body{
 .video-frames, #iframe-video{
     height: 400px;
     width: 600px;
+    background-image: url("pics/dgplayicon.png");
+    
+    
 }
 
+
+#iframe-video{
+    background-color:black;
+}
 h2{
     display: inline;
     text-decoration: underline;
