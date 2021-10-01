@@ -116,20 +116,20 @@ body{
 
 .grid-container{
     display: grid;
-    grid-template-columns: 20% 20% 20% 40%;
+    grid-template-columns: 60% 40%;
     background-color: rgb(255, 255, 255);
     padding: 10px;
+    height: 100vh;
 
 }
 
 .grid-item{
-background-color: white;
+    
+    background-color: white;
 
-padding: 20px;
-font-size: 30px;
-text-align: center;
-/*height: 20rem;
-width: 20rem;*/
+    padding: 10px;
+    font-size: 30px;
+    
 }
 
 .video-frames, #iframe-video{
@@ -138,25 +138,36 @@ width: 20rem;*/
 }
 
 h2{
+    display: inline;
     text-decoration: underline;
     font-size: 20px;
     padding: 10px;
+    line-height: 1px;
 
 }
 
 h3{
+    display: inline;
     font-size: 15px;
-    text-overflow: ellipsis;
+    line-height: 1px;
 }
 
 .thumb-image{
-    height: 200px;
-    width: 360px;
+    display: inline;
+    height: 50px;
+    width: 100px;
     cursor: pointer;
+    
+}
+
+.frames{
+    display: inline-block;
+
 }
 
 footer{
     height: 100px;
+    width: 100vw;
     background-color: black;
 }
 
@@ -167,11 +178,5 @@ footer img{
     
 }
 
-footer #facebook-icon{
-    margin-left: 1000px;
-}
 
-footer #instagram-icon{
-    margin-left: 30px;
-}
 
