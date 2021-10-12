@@ -9,96 +9,59 @@ body{
     
 }
 
-.nav1{
-    margin: -20px 0px;
-    text-align: center;
-    background-color: rgba(0,0,0,.3);
-    height: 100px;
-    position: sticky;
-    
-    
-    
-    
+header{
+  height: 130px;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: space-between;
+
 }
 
-
-ul {
-    
-    text-decoration: none;   
-    display: inline;
-    /*border-bottom: 1px solid white;*/
-    
-    
-}
-
-li{
-    
-    list-style-type: none;
-    display: inline;
-    
-    
-    
-    
-}
-
- 
-.fijititle{
-    
-    color: rgb(255, 255, 254);
-    font-family: 'Lobster', cursive;
-    font-size: 30px;
-    display: inline;
-    
-    text-align: center;
-    float: left;
-    margin-top: 50px;
-    
-   
-    
-    
-}
-
+.logo, .h1-tag{
+  font-family: 'Special Elite', cursive;
   
-    
-      
-  
+  color: white;
+  margin-top: 30px;
+}
 
-  .right{
-      
-      float: right;
-      margin-top: 105px;
-    
-      
+.h1-tag{
+  margin-top: 70px;
+  padding: 10px;
+  font-size: 50px;
+}
+
+.logo{
+  display:flex;
   }
 
 
-a{
-    display: inline;
-    font-size: 20px;
-    font-family: 'Lobster', cursive;
-    color: white;
-    text-decoration: none;
-    padding: 40px 20px;
-    text-shadow: 2px 2px black;
-    transition-property: width;
-    
-    
-    
-    
-    
-    
+.nav-links, li, a{
+  display: inline-block;
+  margin: 30px 10px 0 10px;
+  margin-right: 20px;
+  font-family: 'Special Elite', cursive;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
 }
-a:hover{
-    
-    color: orange;
-    
+
+.nav-links, li, a:hover{
+  color: blue;
 }
+
+
 
 h1{
   font-size: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+
+.audio-container, .container, .container2{
+  margin-left: 220px;
 }
 
 .container{
