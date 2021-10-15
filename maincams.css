@@ -171,7 +171,9 @@ iframe{
 
 
 
-@media (max-width: 800px){
+@media(min-device-width: 320px)
+
+{
 
   .logo{
     display: none;
