@@ -171,47 +171,7 @@ iframe{
 
 
 
-@media(max-width: 900px){
 
-  .logo{
-    display: none;
-  }
-   
-ul li{
-  width:100%;
-  text-align: center;
-  display: none;
-}
-
-.audio-container{
-  margin-top: 100px;
-}
-
-ul li a{
-  
-  display: block;
-  border-bottom: 1px solid #eaeaeb;
-  margin: 0 200px 0 100px;
-  
-}
-
-ul li a:hover{
-
-  color: black;
-
-}
-
-
-label{
-  display: flex;
-  cursor: pointer;
-  color:white;
-}
-
-#toggle:checked + nav ul li{
-   
-   display: block;
-}
 
 
 
