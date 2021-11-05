@@ -2,20 +2,16 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
+    scroll-behavior: smooth;
 }
 
 body{
     overflow: hidden;
-}
-
-
-html{
-    
-    scroll-behavior: smooth;
-
     
 }
+
+
+
 
 .header{
     top:0;
@@ -56,7 +52,7 @@ html{
     display: inline;
     float: right;
     margin-right: 20px;
-
+    scroll-behavior: smooth;
 }
 
 .rssblocks{
