@@ -190,6 +190,17 @@ a:hover{
     
 }
 
+.trt{
+    background-color: rgb(0, 180, 212);
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    height: 50px;
+    border-radius: 40px;
+    
+    
+}
+
 .btnwgn{
     background-color: rgb(0, 9, 133);
     color: white;
@@ -302,6 +313,17 @@ u{
     border-radius: 40px;
     
 }
+
+.btn10{
+    background-color: #4666f5;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    height: 50px;
+    border-radius: 40px;
+    
+}
+
 
 .btninfo{
     background-color: black;
