@@ -55,3 +55,9 @@ function myFunction9(linkName){
     link = document.getElementById("sky");
     link.src = linkName;
 }
+
+function myFunction10(linkName){
+    link = document.getElementById("drudge");
+    link.src = linkName;
+}
+
