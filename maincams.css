@@ -1,3 +1,8 @@
+*{
+  box-sizing: border-box;
+}
+
+
 body{
     margin: 0px;
     padding: 0px;
@@ -37,7 +42,7 @@ header{
 }
 
 .h1-tag{
-  margin-top: 70px;
+  margin-top: 50px;
   padding: 10px;
   font-size: 50px;
 }
@@ -59,60 +64,44 @@ header{
 }
 
 .nav-links, li, a:hover{
-  color: blue;
+  color: rgb(235, 232, 54);
 }
 
-
-
-h1{
-  
-  font-size: 20px;
+.audio-container{
   display: flex;
-  justify-content: center;
-  align-items: center;
+  
 }
 
 
-.audio-container, .container, .container2{
-  margin-left: 220px;
+.audio-container, .stationName, h2{
+  display: inline;
+  margin: 10px;
+  padding: 10px;
 }
 
-.container{
-    position: relative;
-    display: inline-block;
-    margin: 30px;
-    
-    width: auto;
-    height: auto;
-    
-    
-    
-    
-  }
-  
-  
-  
-  .container2{
-    position: relative;
-    display: inline-block;
-    margin: 30px;
-    
-    width: auto;
-    height: auto;
-    
-    
-    
-    
-    
-    
-  
-  }
-  
-  
-  
-  
-  
-  
+h2{
+  font-size: 15px;
+}
+
+#control{
+  margin: 20px 0 0 40px;
+}
+
+hr{
+  height: .5px;
+  border-width: 0px;
+  color: black;
+  background-color: black;
+}
+
+
+.btn1, .btn2, .btn3{
+  background-color: cadetblue;
+  cursor: pointer;
+}
+
+
+
 
 .youtcells{
    margin-left: 10%;
@@ -124,22 +113,11 @@ h1{
    
 }
 
-
-
-
-
 iframe{
     display: inline;
     margin: auto;
     
 }
-
-.control{
-  margin: -55px -30px;
-}
- 
-
-
 
 
 
