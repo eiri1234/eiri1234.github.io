@@ -15,4 +15,7 @@ function myFunction1(linkname){
     link.src = linkname;
   }
 
-  
+  function myFunction4(linkname){
+    link = document.getElementById("control");
+    link.src = linkname;
+  }
