@@ -320,6 +320,16 @@ u{
     
 }
 
+.btn11{
+    background-color: #fafafd;
+    color: rgb(9, 6, 240);
+    padding: 10px;
+    font-weight: bold;
+    height: 50px;
+    border-radius: 40px;
+    
+}
+
 
 .btninfo{
     background-color: black;
