@@ -61,3 +61,7 @@ function myFunction10(linkName){
     link.src = linkName;
 }
 
+function myFunction11(linkName){
+    link = document.getElementById("sky");
+    link.src = linkName;
+}
