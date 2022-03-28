@@ -47,7 +47,7 @@ function myFunction7(linkName){
 }
 
 function myFunction8(linkName){
-    link = document.getElementById("infowars");
+    link = document.getElementById("drudge");
     link.src = linkName;
 }
 
