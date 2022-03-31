@@ -69,7 +69,7 @@ header{
 /*-------------------------main cards begins--------------------------------------------------*/
 
 .main-cards-background{
-    background-image: url("obeywall.jpg");
+    background-image: url("photos/obeywall.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -114,7 +114,7 @@ header{
 .main-pic{
     display: inline;
     
-    background-image: url("russellbrand.jpg");
+    background-image: url("photos/russellbrand.jpg");
     height: 80px;
     width: 80px;
     border-radius: 50%;
@@ -130,7 +130,7 @@ h1{
 .lower-cell{
     height: 80%;
     background-color: white;
-    background-image: url("russellbrandbackground.png");
+    background-image: url("photos/russellbrandbackground.png");
     background-repeat: no-repeat;
 }
 
@@ -161,7 +161,7 @@ h1{
 .main-pic2{
     display: inline;
     margin-left: 10px;
-    background-image: url("jimmydore.jpg");
+    background-image: url("photos/jimmydore.jpg");
     height: 80px;
     width: 80px;
     border-radius: 50%;
@@ -182,7 +182,7 @@ h1 .name{
 .lower-cell2{
     height: 80%;
     background-color: white;
-    background-image: url("jimmydorebackground.png");
+    background-image: url("photos/jimmydorebackground.png");
     background-repeat: no-repeat;
 }
 
@@ -214,7 +214,7 @@ h1 .name{
 .main-pic3{
     display: inline;
     margin-left: 10px;
-    background-image: url("factsmatter.jpg");
+    background-image: url("photos/factsmatter.jpg");
     height: 80px;
     width: 80px;
     border-radius: 50%;
@@ -227,7 +227,7 @@ h1 .name{
 .lower-cell3{
     height: 80%;
     background-color: white;
-    background-image: url("factsmatterbackground.png");
+    background-image: url("photos/factsmatterbackground.png");
     background-repeat: no-repeat;
 }
 
@@ -258,7 +258,7 @@ h1 .name{
 .main-pic4{
     display: inline;
     margin-left: 10px;
-    background-image: url("wearechange.jpg");
+    background-image: url("photos/wearechange.jpg");
     height: 80px;
     width: 80px;
     border-radius: 50%;
@@ -271,7 +271,7 @@ h1 .name{
 .lower-cell4{
     height: 80%;
     background-color: white;
-    background-image: url("wearechangebackground.png");
+    background-image: url("photos/wearechangebackground.png");
     background-repeat: no-repeat;
 }
 
@@ -302,7 +302,7 @@ h1 .name{
 .main-pic5{
     display: inline;
     margin-left: 10px;
-    background-image: url("projectveritas.png");
+    background-image: url("photos/projectveritas.png");
     height: 80px;
     width: 80px;
     border-radius: 50%;
@@ -315,7 +315,7 @@ h1 .name{
 .lower-cell5{
     height: 80%;
     background-color: white;
-    background-image: url("projectveritasbackground.jpg");
+    background-image: url("photos/projectveritasbackground.jpg");
     background-repeat: no-repeat;
 }
 
@@ -346,7 +346,7 @@ h1 .name{
 .main-pic6{
     display: inline;
     margin-left: 10px;
-    background-image: url("awakenwithjp.jpg");
+    background-image: url("photos/awakenwithjp.jpg");
     height: 80px;
     width: 80px;
     border-radius: 50%;
@@ -359,7 +359,7 @@ h1 .name{
 .lower-cell6{
     height: 80%;
     background-color: white;
-    background-image: url("awakenwithjpbackground.png");
+    background-image: url("photos/awakenwithjpbackground.png");
     background-repeat: no-repeat;
 }
 
@@ -391,7 +391,7 @@ h1 .name{
     display: inline;
     margin-left: 10px;
     
-    background-image: url("glenbeck.jpg");
+    background-image: url("photos/glenbeck.jpg");
     height: 80px;
     width: 80px;
     border-radius: 50%;
@@ -411,7 +411,7 @@ h1 .name{
 .lower-cell7{
     height: 80%;
     background-color: white;
-    background-image: url("glenbeckbackground.png");
+    background-image: url("photos/glenbeckbackground.png");
     background-repeat: no-repeat;
 }
 
@@ -443,7 +443,7 @@ h1 .name{
     display: inline;
     margin-left: 10px;
     
-    background-image: url("delbigtree.jpg");
+    background-image: url("photos/delbigtree.jpg");
     height: 80px;
     width: 80px;
     border-radius: 50%;
@@ -463,7 +463,7 @@ h1 .name{
 .lower-cell8{
     height: 80%;
     background-color: white;
-    background-image: url("thehighwirebackground.png");
+    background-image: url("photos/thehighwirebackground.png");
     background-repeat: no-repeat;
 }
 
@@ -495,7 +495,7 @@ h1 .name{
     display: inline;
     margin-left: 10px;
     
-    background-image: url("kimiverson.jpg");
+    background-image: url("photos/kimiverson.jpg");
     height: 80px;
     width: 80px;
     border-radius: 50%;
@@ -515,7 +515,7 @@ h1 .name{
 .lower-cell9{
     height: 80%;
     background-color: white;
-    background-image: url("kimiversonbackground.jpg");
+    background-image: url("photos/kimiversonbackground.jpg");
     background-repeat: no-repeat;
 }
 
