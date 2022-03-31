@@ -1,0 +1,522 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+li, a{
+    font-family: 'Comforter', cursive;
+    font-weight: 900;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    margin-top: 90px;
+}
+
+.logo{
+    position: relative;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.logotext{
+    font-family: 'Comforter', cursive;
+    font-size: 50px;
+    display: inline;
+    color: rgb(31, 30, 30);
+    padding: 10px;
+    cursor: pointer;
+}
+
+.logo-and-text{
+    margin-left: -150px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    padding: 30px 10%;
+    background: rgb(249,248,255);
+    background: linear-gradient(169deg, rgba(249,248,255,1) 0%, rgba(219,137,21,1) 100%, rgba(0,212,255,1) 100%); 
+}
+
+.nav-links{
+    list-style: none;
+    margin-right: -130px;
+
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 0px 20px 10px;
+    
+
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+    
+}
+
+.nav-links li a:hover{
+    color: red;
+}
+
+
+/*-------------------------main cards begins--------------------------------------------------*/
+
+.main-cards-background{
+    background-image: url("obeywall.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+.main-cards{
+    display: inline-grid;
+    grid-template-columns: 20% 20% 20%;
+    grid-gap: 10px;
+    margin-left: 18%;
+    margin-top: 8%;
+    height: auto;
+    width: 100%;
+    
+}
+
+
+
+/*------------------------------------------cards1 begins-----------------------------------------------------*/
+
+.cards1{
+    
+    height: 400px;
+    width:300px;
+    margin-top: 50px;
+    margin-left: 100px;
+    box-shadow: rgb(2, 2, 2) 10px 10px 20px;
+    transition: transform .2s;
+    
+}
+
+.cards1:hover{
+    transform: scale(1.2);
+}
+
+.upper-cell{
+    height: 20%;
+    background-color: white;
+}
+
+.main-pic{
+    display: inline;
+    
+    background-image: url("russellbrand.jpg");
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+.main-pic,.name{
+    display: block;
+}
+
+h1{
+    
+    font-weight: 900;
+}
+.lower-cell{
+    height: 80%;
+    background-color: white;
+    background-image: url("russellbrandbackground.png");
+    background-repeat: no-repeat;
+}
+
+/*------------------------------------------cards1 ends-----------------------------------------------------*/
+
+/*------------------------------------------cards2 begins-----------------------------------------------------*/
+
+.cards2{
+    
+    height: 400px;
+    width:300px;
+    margin-top: 50px;
+    margin-left: 100px;
+    box-shadow: rgb(2, 2, 2) 10px 10px 20px;
+    transition: transform .2s;
+    
+}
+
+.cards2:hover{
+    transform: scale(1.2);
+}
+
+.upper-cell{
+    height: 20%;
+    background-color: white;
+}
+
+.main-pic2{
+    display: inline;
+    margin-left: 10px;
+    background-image: url("jimmydore.jpg");
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+.main-pic2,.name{
+    display: block;
+}
+.name{
+    font-size: 30px;
+    margin-top: -90px;
+    margin-left: 70px;
+
+}
+
+h1 .name{
+    align-items: center;
+}
+.lower-cell2{
+    height: 80%;
+    background-color: white;
+    background-image: url("jimmydorebackground.png");
+    background-repeat: no-repeat;
+}
+
+/*------------------------------------------cards2 ends-----------------------------------------------------*/
+
+
+/*------------------------------------------cards3 begins-----------------------------------------------------*/
+
+.cards3{
+    
+    height: 400px;
+    width:300px;
+    margin-top: 50px;
+    margin-left: 100px;
+    box-shadow: rgb(2, 2, 2) 10px 10px 20px;
+    transition: transform .2s;
+    
+}
+
+.cards3:hover{
+    transform: scale(1.2);
+}
+
+.upper-cell{
+    height: 20%;
+    background-color: white;
+}
+
+.main-pic3{
+    display: inline;
+    margin-left: 10px;
+    background-image: url("factsmatter.jpg");
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+.main-pic3,.name{
+    display: block;
+}
+
+
+.lower-cell3{
+    height: 80%;
+    background-color: white;
+    background-image: url("factsmatterbackground.png");
+    background-repeat: no-repeat;
+}
+
+/*------------------------------------------cards3 ends-----------------------------------------------------*/
+
+/*------------------------------------------cards4 begins-----------------------------------------------------*/
+
+.cards4{
+    
+    height: 400px;
+    width:300px;
+    margin-top: 50px;
+    margin-left: 100px;
+    box-shadow: rgb(2, 2, 2) 10px 10px 20px;
+    transition: transform .2s;
+    
+}
+
+.cards4:hover{
+    transform: scale(1.2);
+}
+
+.upper-cell{
+    height: 20%;
+    background-color: white;
+}
+
+.main-pic4{
+    display: inline;
+    margin-left: 10px;
+    background-image: url("wearechange.jpg");
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+.main-pic4,.name{
+    display: block;
+}
+
+
+.lower-cell4{
+    height: 80%;
+    background-color: white;
+    background-image: url("wearechangebackground.png");
+    background-repeat: no-repeat;
+}
+
+/*------------------------------------------cards4 ends-----------------------------------------------------*/
+
+/*------------------------------------------cards5 begins-----------------------------------------------------*/
+
+.cards5{
+    
+    height: 400px;
+    width:300px;
+    margin-top: 50px;
+    margin-left: 100px;
+    box-shadow: rgb(2, 2, 2) 10px 10px 20px;
+    transition: transform .2s;
+    
+}
+
+.cards5:hover{
+    transform: scale(1.2);
+}
+
+.upper-cell{
+    height: 20%;
+    background-color: white;
+}
+
+.main-pic5{
+    display: inline;
+    margin-left: 10px;
+    background-image: url("projectveritas.png");
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+.main-pic5,.name{
+    display: block;
+}
+
+
+.lower-cell5{
+    height: 80%;
+    background-color: white;
+    background-image: url("projectveritasbackground.jpg");
+    background-repeat: no-repeat;
+}
+
+/*------------------------------------------cards5 ends-----------------------------------------------------*/
+
+/*------------------------------------------cards6 begins-----------------------------------------------------*/
+
+.cards6{
+    
+    height: 400px;
+    width:300px;
+    margin-top: 50px;
+    margin-left: 100px;
+    box-shadow: rgb(2, 2, 2) 10px 10px 20px;
+    transition: transform .2s;
+    
+}
+
+.cards6:hover{
+    transform: scale(1.2);
+}
+
+.upper-cell{
+    height: 20%;
+    background-color: white;
+}
+
+.main-pic6{
+    display: inline;
+    margin-left: 10px;
+    background-image: url("awakenwithjp.jpg");
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+.main-pic6,.name{
+    display: block;
+}
+
+
+.lower-cell6{
+    height: 80%;
+    background-color: white;
+    background-image: url("awakenwithjpbackground.png");
+    background-repeat: no-repeat;
+}
+
+/*------------------------------------------cards6 ends-----------------------------------------------------*/
+
+/*------------------------------------------cards7 begins-----------------------------------------------------*/
+
+.cards7{
+    
+    height: 400px;
+    width:300px;
+    margin-top: 50px;
+    margin-left: 100px;
+    box-shadow: rgb(2, 2, 2) 10px 10px 20px;
+    transition: transform .2s;
+    
+}
+
+.cards7:hover{
+    transform: scale(1.2);
+}
+
+.upper-cell{
+    height: 20%;
+    background-color: white;
+}
+
+.main-pic7{
+    display: inline;
+    margin-left: 10px;
+    
+    background-image: url("glenbeck.jpg");
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+.main-pic7,.name{
+    display: block;
+}
+
+.name, h1{
+    font-size: 30px;
+    margin-top: -50px;
+    margin-left: 120px;
+    font-weight: 900;
+
+}
+
+.lower-cell7{
+    height: 80%;
+    background-color: white;
+    background-image: url("glenbeckbackground.png");
+    background-repeat: no-repeat;
+}
+
+/*------------------------------------------cards7 ends-----------------------------------------------------*/
+
+/*------------------------------------------cards8 begins-----------------------------------------------------*/
+
+.cards8{
+    
+    height: 400px;
+    width:300px;
+    margin-top: 50px;
+    margin-left: 100px;
+    box-shadow: rgb(2, 2, 2) 10px 10px 20px;
+    transition: transform .2s;
+    
+}
+
+.cards8:hover{
+    transform: scale(1.2);
+}
+
+.upper-cell{
+    height: 20%;
+    background-color: white;
+}
+
+.main-pic8{
+    display: inline;
+    margin-left: 10px;
+    
+    background-image: url("delbigtree.jpg");
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+.main-pic8,.name{
+    display: block;
+}
+
+.name, h1{
+    font-size: 30px;
+    margin-top: -50px;
+    margin-left: 120px;
+    font-weight: 900;
+
+}
+
+.lower-cell8{
+    height: 80%;
+    background-color: white;
+    background-image: url("thehighwirebackground.png");
+    background-repeat: no-repeat;
+}
+
+/*------------------------------------------cards8 ends-----------------------------------------------------*/
+
+/*------------------------------------------cards9 begins-----------------------------------------------------*/
+
+.cards9{
+    
+    height: 400px;
+    width:300px;
+    margin-top: 50px;
+    margin-left: 100px;
+    box-shadow: rgb(2, 2, 2) 10px 10px 20px;
+    transition: transform .2s;
+    
+}
+
+.cards9:hover{
+    transform: scale(1.2);
+}
+
+.upper-cell{
+    height: 20%;
+    background-color: white;
+}
+
+.main-pic9{
+    display: inline;
+    margin-left: 10px;
+    
+    background-image: url("kimiverson.jpg");
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+.main-pic9,.name{
+    display: block;
+}
+
+.name, h1{
+    font-size: 30px;
+    margin-top: -50px;
+    margin-left: 120px;
+    font-weight: 900;
+
+}
+
+.lower-cell9{
+    height: 80%;
+    background-color: white;
+    background-image: url("kimiversonbackground.jpg");
+    background-repeat: no-repeat;
+}
+
+/*------------------------------------------cards8 ends-----------------------------------------------------*/
