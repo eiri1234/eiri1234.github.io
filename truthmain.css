@@ -520,3 +520,55 @@ h1 .name{
 }
 
 /*------------------------------------------cards8 ends-----------------------------------------------------*/
+
+/*------------------------------------------cards10 begins-----------------------------------------------------*/
+
+.cards10{
+    
+    height: 400px;
+    width:300px;
+    margin-top: 50px;
+    margin-left: 100px;
+    box-shadow: rgb(2, 2, 2) 10px 10px 20px;
+    transition: transform .2s;
+    
+}
+
+.cards10:hover{
+    transform: scale(1.2);
+}
+
+.upper-cell{
+    height: 20%;
+    background-color: white;
+}
+
+.main-pic10{
+    display: inline;
+    margin-left: 10px;
+    
+    background-image: url("photos/Bongino.jpg");
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+.main-pic10,.name{
+    display: block;
+}
+
+.name, h1{
+    font-size: 30px;
+    margin-top: -50px;
+    margin-left: 120px;
+    font-weight: 900;
+
+}
+
+.lower-cell10{
+    height: 80%;
+    background-color: white;
+    background-image: url("photos/bonginobackground.jpg");
+    background-repeat: no-repeat;
+}
+
+/*------------------------------------------cards10 ends-----------------------------------------------------*/
