@@ -72,7 +72,7 @@ function myFunction12(linkName){
 }
 
 function myFunction13(linkName){
-    link = document.getElementById("infowars");
+    link = document.getElementById("sky");
     link.src = linkName;
 }
 
