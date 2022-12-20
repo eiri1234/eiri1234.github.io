@@ -65,3 +65,9 @@ function myFunction11(linkName){
     link = document.getElementById("sky");
     link.src = linkName;
 }
+
+function myFunction12(linkName){
+    link = document.getElementById("infowars");
+    link.src = linkName;
+}
+
