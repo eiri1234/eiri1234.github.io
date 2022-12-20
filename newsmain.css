@@ -340,6 +340,16 @@ u{
     
 }
 
+.btn13{
+    background-color: #0b89ef;
+    color: rgb(242, 242, 246);
+    padding: 10px;
+    font-weight: bold;
+    height: 50px;
+    border-radius: 40px;
+    
+}
+
 
 .btninfo{
     background-color: black;

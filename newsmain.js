@@ -71,3 +71,8 @@ function myFunction12(linkName){
     link.src = linkName;
 }
 
+function myFunction13(linkName){
+    link = document.getElementById("infowars");
+    link.src = linkName;
+}
+
