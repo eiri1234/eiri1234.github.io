@@ -82,9 +82,5 @@ function myFunction14(){
     
 }
 
-function toggleLiveTv() {
-    const popup = document.getElementById('liveTvPopup');
-    popup.style.display = (popup.style.display === 'none' || popup.style.display === '') ? 'block' : 'none';
-  }
-  
+
 
