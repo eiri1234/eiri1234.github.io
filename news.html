@@ -86,20 +86,19 @@
     <!-- Add more news content here -->
   </main>
 
-  <div id="liveTvPopup">
-    <div class="tv-grid">
-      <iframe src="https://odysee.com/$/embed/@AlexJonesChannel:c/infowarsnetworkfeed-live-1:9?r=GecNqEnfMEMtF8Ui42SXxkD3Z7bX6xP2" allowfullscreen></iframe>
-      <iframe src="https://odysee.com/$/embed/@RT:fd/livestream_RT:d?r=AsbENJx6vS7K4LnVZErZYwq97gm3sAto" allowfullscreen></iframe>
-      <iframe src="https://www.youtube.com/embed/iEpJwprxDdk" allowfullscreen></iframe>
-      <iframe src="https://www.youtube.com/embed/9NyxcX3rhQs" allowfullscreen></iframe>
-      <iframe src="https://www.youtube.com/embed/-mvUkiILTqI" allowfullscreen></iframe>
-      <iframe src="https://www.youtube.com/embed/tZT2MCYu6Zw" allowfullscreen></iframe>
-      <iframe src="https://www.youtube.com/embed/YDfiTGGPYCk" allowfullscreen></iframe>
-      <iframe src="https://pluto.tv/en/live-tv/oan-plus" allowfullscreen></iframe>
-      <iframe src="https://www.youtube.com/embed/gCNeDWCI0vo" allowfullscreen></iframe>
-      <iframe src="https://www.youtube.com/embed/zognWzoTMT4" allowfullscreen></iframe>
-    </div>
+  <button id="liveTvToggleBtn">Toggle Live TV</button>
+
+  <!-- Live TV Popup Grid -->
+  <div id="liveTvPopup" class="hide">
+    <iframe class="live-frame" src="https://odysee.com/$/embed/@AlexJonesChannel:c/infowarsnetworkfeed-live-1:9" allowfullscreen></iframe>
+    <iframe class="live-frame" src="https://odysee.com/@RTDocumentary:4/rtdlivestr:5" allowfullscreen></iframe>
+    <iframe class="live-frame" src="https://www.youtube.com/embed/iEpJwprxDdk?si=y-Ij1EPqOm10V-99" allowfullscreen></iframe>
+    <iframe class="live-frame" src="https://www.youtube.com/embed/9NyxcX3rhQs?si=7rImwTwoLg8JQhiE" allowfullscreen></iframe>
+    <iframe class="live-frame" src="https://www.youtube.com/embed/-mvUkiILTqI?si=KagpqHzplvmeOWvl" allowfullscreen></iframe>
+    <iframe class="live-frame" src="https://www.youtube.com/embed/gCNeDWCI0vo" allowfullscreen></iframe>
   </div>
+
+  <script src="script.js"></script>
 
   <script>
     function toggleLiveTv() {
