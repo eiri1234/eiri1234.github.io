@@ -1,166 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keyword" content="Live News, News, Best News Source, News from around the world, Breaking News, Live News tv, News stream.">
-    <meta name="description" content="Click multiple News streams on one site and live tv streams.">
-    <title>News Hound</title>
-    <link rel="icon" href="newshound.png">
-    <link href="newsmain.css" rel="stylesheet">
-    <script src="newsmain.js"></script>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet"> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Live TV and News</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+    }
 
-<!-- Hotjar Tracking Code for https://eiri1234.github.io/news.html -->
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 60px;
+      background: #333;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 20px;
+      z-index: 9999;
+    }
 
+    main {
+      margin-top: 70px; /* space for fixed header */
+      padding: 20px;
+    }
 
+    button {
+      padding: 10px 20px;
+      background: #0066cc;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    /* Live TV Popup */
+    #liveTvPopup {
+      display: none;
+      position: fixed;
+      top: 70px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 95%;
+      height: 85vh;
+      background-color: #111;
+      border: 2px solid #ccc;
+      z-index: 10000;
+      overflow-y: auto;
+      padding: 10px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.7);
+      border-radius: 10px;
+    }
+
+    #liveTvPopup .tv-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 15px;
+    }
+
+    #liveTvPopup iframe {
+      width: 100%;
+      height: 200px;
+      border: none;
+    }
+  </style>
 </head>
 <body>
 
-    <div class="header">
-        <div class="title">News Hound</div>
-           <img class="hound" src="newshound.png" height="70px" width="70px">
-        
-        <ul>
-            <li><a href="http://eiri1234.github.io/news.html"> Home</li></a>
-            <li><a href="http://eiri1234.github.io/documentaries.html" target="_blank"> Documentaries</li></a>
-            <li><a href="http://eiri1234.github.io" target="_blank"> Cams</li></a>
-            <li><a href="http://eiri1234.github.io/truthsource.html" target="_blank">Truth Sources</li></a>
-        </ul>
-      </div>
+  <header>
+    <h1>News Central</h1>
+    <button onclick="toggleLiveTv()">Toggle Live TV</button>
+  </header>
 
-      <div class="control">
-        
-     <!--   <div class="radiocontrol">
-         <audio controls>
-            <source src="http://35.230.37.193/momentum-kioofmmp3-ibc2?session-id=aae005bc40a363dfa639e1c3084b6b71&source=tunein&source=tunein&source=TuneIn&gdpr=0&us_privacy=1YNY" type="audio/mpeg">
-         </audio>
-         <audio controls>
-            <source src="https://17533.live.streamtheworld.com/WNEDFM_SC?DIST=TuneIn&TGT=TuneIn&maxServers=2&tdtok=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImtpZCI6ImZTeXA4In0.eyJpc3MiOiJ0aXNydiIsInN1YiI6IjIxMDY0IiwiaWF0IjoxNjIwNzU0NTU4LCJ0ZC1yZWciOmZhbHNlfQ.LjwF9AGveaXiIbwGYJtDAOtyDjMhtJ-FkjG6tOJIZu8&gdpr=0&us_privacy=1YNY&partnertok=eyJhbGciOiJIUzI1NiIsImtpZCI6InR1bmVpbiIsInR5cCI6IkpXVCJ9.eyJ0cnVzdGVkX3BhcnRuZXIiOnRydWUsImlhdCI6MTYyMDc1NDU1OCwiaXNzIjoidGlzcnYifQ.wvB2aROvF7-O3XnjQSrnDl7harumGLVZUAf34feN5dc" type="audio/mpeg">
-         </audio>
-         <audio controls>
-            <source src="https://node-28.zeno.fm/cygwwun7a5zuv?rj-ttl=5&rj-tok=AAABeVyLuLMAH-hYAcKQqjqQGw" type="audio/mpeg">
-         </audio>
-</div>-->
-          
-         <div class="tvbuttons">
-            <button class="btn5" type="button" onclick = "myFunction5('https://drudgereport.com/?NF=1', 'https://coincodex.com/', 'https://www.infowars.com/?cp=1')">Reset </button>
-            
-            <button class="btn1" id="btn1" type="button" onclick = "myFunction('https://www.breitbart.com/')">Breitbart</button> 
-            <button class="btn2" type="button" onclick = "myFunction1('https://www.zerohedge.com/')"><u>Zero Hedge</u></button> 
-            <button class="btn3" type="button" onclick = "myFunction2('https://www.foxnews.com')">Fox News</button>
-            <button class="btn4" type="button" onclick = "myFunction4('https://www.salon.com/')">Salon</button>
-            <button class="btn7" type="button" onclick = "myFunction7('https://www.mediaite.com/')">Mediaite</button>
-            <button class="btn8" type="button" onclick = "myFunction8('https://www.dogpile.com/serp?q=cyber+news&sc=THfQ9FNoK7K910')">Cyber News</button>
-            <button class="btn9" type="button" onclick = "myFunction9('https://www.dogpile.com/serp?q=stock+market&sc=QyS4INhimsTX10')">Market Watch</button>
-            <button class="btn10" type="button" onclick = "myFunction10('https://www.americanfaith.com')">American Faith</button>
-            <button class="btn11" type="button" onclick = "myFunction11('https://www.oann.com/')">OAN</button>
-            <button class="btn13" type="button" onclick = "myFunction13('https://trends24.in/united-states/')">Twitter Trends</button>
-            <button class="btn12" type="button" onclick = "myFunction12('https://cryptonews.com/')">Crypto News</button>
-             <button class="btn6" id="btn6" type="button" onclick = "myFunction6('https://www.naturalnews.com/#')">Natural News</button>
-             <button onclick="toggleLiveBox()">📺 Live TV</button>
+  <main>
+    <h2>Top News</h2>
+    <p>This is where your news content goes. Add articles, stories, and more here.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+    <p>Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris.</p>
+    <!-- Add more news content here -->
+  </main>
 
-       <a href="#infotv"> <button class="btninfo">WarRoom</button></a> 
-       <a href="#rtnewstv"> <button class="btnrt">RT News</button></a>  
-       <a href="#france24"> <button class="btnfrance24">France 24</button></a> 
-       <a href="#newsmax"><button class="btnnewsmax">NewsMax</button></a>
-       <a href="#trt"><button class="trt">TRT World</button></a>
-       <a href="#Al Jazeera"><button class="btnaljazeera">Al Jazeera</button></a>
-       
-       
-      
+  <div id="liveTvPopup">
+    <div class="tv-grid">
+      <iframe src="https://odysee.com/$/embed/@AlexJonesChannel:c/infowarsnetworkfeed-live-1:9?r=GecNqEnfMEMtF8Ui42SXxkD3Z7bX6xP2" allowfullscreen></iframe>
+      <iframe src="https://odysee.com/$/embed/@RT:fd/livestream_RT:d?r=AsbENJx6vS7K4LnVZErZYwq97gm3sAto" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/iEpJwprxDdk" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/9NyxcX3rhQs" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/-mvUkiILTqI" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/tZT2MCYu6Zw" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/YDfiTGGPYCk" allowfullscreen></iframe>
+      <iframe src="https://pluto.tv/en/live-tv/oan-plus" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/gCNeDWCI0vo" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/zognWzoTMT4" allowfullscreen></iframe>
+    </div>
+  </div>
 
-
-       
-       
-      
-      
-      </div>
-</div>
-     
-   
-<!--News reels-->
-
-   <div class="rssblocks">
-
-         <div class="dailymail">
-            <iframe id="sky" width="400" height="850" src="https://drudgereport.com/?NF=1" frameBorder="0"></iframe>  
-         </div>
-
-        <div class="drudge">
-          <iframe id="drudge" width="400" height="850" src="https://coincodex.com/" frameBorder="0"></iframe>
-        </div>
-
-        <div class="infowars">
-          <iframe id="infowars" width="400" height="850" src="https://www.infowars.com/?cp=1" frameBorder="0"></iframe>
-        </div>
-         
-        
-   </div>
-
-
-     <!--Live tv stations-->      <!--https://rumble.com/embed/vketz3/?pub=4-->      <!--https://www.infowars.com/show/?loop=0&amp;autoplay=0-->
-
-     <div class="containerright">
-   
-     <div id="infotv">
-      <iframe src="https://odysee.com/$/embed/@AlexJonesChannel:c/infowarsnetworkfeed-live-1:9?r=GecNqEnfMEMtF8Ui42SXxkD3Z7bX6xP2" allowfullscreen  width="640" height="362" frameborder="0" style="max-width:100%"></iframe>
-     </div>
-     
-     
-     <!-- <div id="skynews">
-     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/9Auq9mYxFEE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-     </div>-->
-     <!--<div id="frenchies">
-        <iframe width="600" height="400" src="https://www.youtube.com/embed/rxBBRLWF0mM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-     </div>-->
-     
-     <div id="rtnewstv">
-      <iframe id="odysee-iframe" width="560" height="315" src="https://odysee.com/$/embed/@RT:fd/livestream_RT:d?r=AsbENJx6vS7K4LnVZErZYwq97gm3sAto" allowfullscreen></iframe> </div>
-    
-    <div id="Bloomberg">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/iEpJwprxDdk?si=y-Ij1EPqOm10V-99" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-   
-      <div id="Cnbc Docs">
-      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/9NyxcX3rhQs?si=7rImwTwoLg8JQhiE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-      
-
-      <div id="ABC NEWS">
-         <iframe width="560" height="315" src="https://www.youtube.com/embed/-mvUkiILTqI?si=KagpqHzplvmeOWvl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-         <div id="DW news">
-         <iframe width="560" height="315" src="https://www.youtube.com/embed/tZT2MCYu6Zw?si=4vepwYj2la7xMoVL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-       
-         <div id = "LIVE NOW FROM FOX news">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/YDfiTGGPYCk?si=TMfFq8yx0nIEtzco" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-           </div>
-      <div id="pluto">
-         <iframe width="560" height="315" src="https://pluto.tv/en/live-tv/oan-plus?utm_source=plutotv&utm_medium=share&utm_campaign=1000201&utm_content=1000735&referrer=copy-link" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-         </div>
-
-        <div id="Al Jazeera">
-         <iframe width="560" height="315" src="https://www.youtube.com/embed/gCNeDWCI0vo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
-        
-         <div id="NewsMax">
-         <iframe width="560" height="315" src="https://www.youtube.com/embed/zognWzoTMT4?si=dnbiEX6epd-T1pM7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
-        
-
-   
-
-   
-  
-
-  <!--<div class="coin"> <script src="https://widgets.coingecko.com/coingecko-coin-price-static-headline-widget.js"></script>
-             <coingecko-coin-price-static-headline-widget  coin-ids="bitcoin,ethereum,binancecoin,eos,litecoin,ripple,dogecoin,chainlink,stellar,cardano,polkadot,monero" currency="usd" locale="en"></coingecko-coin-price-static-headline-widget>
-           </div>-->
-
-<!-- Hitsteps TRACKING CODE - Manual 2021-08-20 - DO NOT CHANGE -->
-<script type="text/javascript">(function(){var hstc=document.createElement('script'); hstc.src='https://log.hitsteps.net/track.php?code=e866699e8e9888d7c4b428d4019754fc';hstc.async=true;var htssc = document.getElementsByTagName('script')[0];htssc.parentNode.insertBefore(hstc, htssc);})();
-</script><noscript><a href="http://www.hitsteps.com/"><img src="//log.hitsteps.net/track.php?mode=img&amp;code=e866699e8e9888d7c4b428d4019754fc" alt="Realtime blog tracking" width="1" height="1" />web statistics</a></noscript>
-<!-- Hitsteps TRACKING CODE - DO NOT CHANGE -->
+  <script>
+    function toggleLiveTv() {
+      const popup = document.getElementById('liveTvPopup');
+      popup.style.display = (popup.style.display === 'none' || popup.style.display === '') ? 'block' : 'none';
+    }
+  </script>
 
 </body>
 </html>

@@ -82,8 +82,9 @@ function myFunction14(){
     
 }
 
-function toggleLiveBox() {
-    const tvBox = document.querySelector('.containerright');
-    tvBox.classList.toggle('tv-expanded');
-}
+function toggleLiveTv() {
+    const popup = document.getElementById('liveTvPopup');
+    popup.style.display = (popup.style.display === 'none' || popup.style.display === '') ? 'block' : 'none';
+  }
+  
 
