@@ -75,6 +75,36 @@ body{
     
 }
 
+/* Start small */
+.containerright {
+    position: relative;
+    z-index: 1;
+    transition: all 0.3s ease;
+}
+
+/* Expanded floating view */
+.containerright.tv-expanded {
+    position: fixed;
+    top: 50px;
+    right: 20px;
+    width: 80%;
+    max-width: 1200px;
+    height: 80vh;
+    background-color: #000;
+    border: 2px solid #ccc;
+    padding: 10px;
+    overflow-y: scroll;
+    z-index: 9999;
+    box-shadow: 0 0 15px rgba(0,0,0,0.7);
+}
+
+
+
+
+
+
+
+
 
 ul{
     font-family: 'Special Elite', cursive;
@@ -348,6 +378,21 @@ u{
     height: 50px;
     border-radius: 40px;
     
+}
+
+.btn14{
+    background-color: #050505;
+    color: rgb(242, 242, 246);
+    padding: 10px;
+    font-weight: bold;
+    height: 50px;
+    border-radius: 40px;
+    
+}
+
+.rightChange{
+    background-color: #010101;
+    grid-auto-rows: auto;
 }
 
 .btninfo{

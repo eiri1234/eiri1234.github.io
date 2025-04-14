@@ -76,3 +76,14 @@ function myFunction13(linkName){
     link.src = linkName;
 }
 
+function myFunction14(){
+    document.getElementById("containerright");
+    
+    
+}
+
+function toggleLiveBox() {
+    const tvBox = document.querySelector('.containerright');
+    tvBox.classList.toggle('tv-expanded');
+}
+
